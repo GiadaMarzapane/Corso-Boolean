@@ -1,0 +1,70 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+#titolo, main{
+  font-family: 'Comfortaa', cursive;
+}
+
+section{
+color: white;
+margin: 2%;
+}
+
+header{
+  text-align:center;
+}
+
+nav{
+  background-color: #00ff00;
+  padding: 1%;
+  width: 94%;
+  display: inline-block;
+}
+
+button{
+  font-size: 9px;
+}
+
+#titolo{
+  color:#00ff00;
+  font-size: 20px;
+  margin: 1%;
+}
+
+.nome-monopattino{
+font-size: 15px;
+margin: 2px;
+}
+.nome-monopattino + div{
+  font-size: 10px;
+  margin: 2px;
+}
+
+.leone{
+background-color: orange;
+width: 300px;
+height: 17px;
+border-radius: 3px;
+}
+.giraffa{
+  background-color: #00ff00;
+  width: 450px;
+  height: 17px;
+  border-radius: 3px;
+}
+.elefante{
+  background-color: red;
+  width: 100px;
+  height: 17px;
+  border-radius: 3px;
+}
+.corpo{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 50%;
+  height:80%;
+  margin: auto;
+  margin-top: 2%;
+  padding: 50px;
+}
